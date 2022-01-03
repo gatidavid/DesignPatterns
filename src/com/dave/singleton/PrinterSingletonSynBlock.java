@@ -9,6 +9,7 @@ public class PrinterSingletonSynBlock {
 	}
 	
 	public static PrinterSingletonSynBlock getInstance() {
+		
 		synchronized (PrinterSingletonSynBlock.class) {
 			if(INSTANCE== null)
 				INSTANCE = new PrinterSingletonSynBlock();	

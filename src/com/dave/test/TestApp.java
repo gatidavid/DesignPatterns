@@ -1,7 +1,6 @@
 package com.dave.test;
 
 import com.dave.singleton.PrinterSingletonSynBlock;
-import com.dave.singleton.PrinterSynchronizedMethod;
 
 public class TestApp {
 
